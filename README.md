@@ -9,19 +9,19 @@ This saves development (read/edit/review) time and enables automated edits.
 Install:
 
 ```shell
-$ go get -u github.com/protocolbuffers/txtpbfmt/cmd/txtpbfmt
+go install github.com/protocolbuffers/txtpbfmt/cmd/txtpbfmt@latest
 ```
 
 Format files in-place:
 
 ```shell
-$ ${GOPATH}/bin/txtpbfmt [FILES]
+${GOPATH}/bin/txtpbfmt [FILES]
 ```
 
 Write formatted input to stdout:
 
 ```shell
-$ ${GOPATH}/bin/txtpbfmt < [FILE]
+${GOPATH}/bin/txtpbfmt < [FILE]
 ```
 
 ## What does it do?
